@@ -1,0 +1,25 @@
+.search-instructions {
+    font-size: small;
+}
+
+.search-instructions span {
+    display: block;
+}
+
+.current-weather {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    align-self: center;
+    align-items: center;
+}
+
+.forecast-weather {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
